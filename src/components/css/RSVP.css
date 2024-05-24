@@ -1,0 +1,35 @@
+/* src/components/RSVP.css */
+.rsvp {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rsvp h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .rsvp button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rsvp button:hover {
+    background-color: #ccc;
+  }
+  
+  .rsvp button:first-of-type {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .rsvp button:last-of-type {
+    background-color: #f44336;
+    color: white;
+  }
+  

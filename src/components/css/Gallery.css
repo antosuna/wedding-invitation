@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Nanum+Myeongjo&family=Patrick+Hand&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bad+Script&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Nanum+Myeongjo&family=Patrick+Hand&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Antonio:wght@100..700&family=Bad+Script&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Nanum+Myeongjo&family=Patrick+Hand&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Antonio:wght@100..700&family=Bad+Script&family=Hind+Vadodara:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Nanum+Myeongjo&family=Patrick+Hand&family=Satisfy&display=swap');
+
+.gallery-section {
+    padding: 50px 0;
+    background: #f7f7f7;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .carousel-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .carousel-container {
+    width: 80%;
+    max-width: 800px;
+  }
+
+  
+  @media (max-width: 768px) {
+    .carousel-container {
+      width: 90%;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+/* src/components/LocationInfo.css */
+.location-info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .location-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .location-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .location-info iframe {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
